@@ -276,7 +276,7 @@ def main():
     st.set_page_config(page_title="Motor de Pronósticos", layout="wide")
 
     # Carga la imagen desde un archivo
-    imagen = Image.open(r"C://Users//Juan_David//Documents//Motor_WA//Streamlit//Motor_Strmlt_2024-04-01_11-58-50.jpg")
+    imagen = Image.open(r"https://github.com//jcardenas151276//Motor2//edit//main//main.pyMotor_Strmlt_2024-04-01_11-58-50.jpg")
 
     # Contenedor para imagen y título
     col1, _ = st.columns([1, 50])
