@@ -584,8 +584,8 @@ def Entrenamiento(partes, TS, DF, SP, FP):
 
     for num_parte, df_parte in partes.items():
         
-        if num_parte not in [4]: # Descomentar si estoy haciendo pruebas
-            continue
+        #if num_parte not in [4]: # Descomentar si estoy haciendo pruebas
+            #continue
         
         # Restablece estos DataFrames para cada parte
         results_df_all_series = pd.DataFrame()
@@ -747,8 +747,8 @@ def Forecast (best_models_report, opt_params_df, partes, TS, DF, SP, FP):
 
     for num_parte, df_parte in partes.items():
         
-        if num_parte not in [4]: # Descomentar si estoy haciendo pruebas
-            continue
+        #if num_parte not in [4]: # Descomentar si estoy haciendo pruebas
+            #continue
 
         # Restablece estos DataFrames para cada parte
         results_df_all_series_fcst = pd.DataFrame()
