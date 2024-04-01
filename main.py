@@ -276,7 +276,7 @@ def main():
     st.set_page_config(page_title="Motor de Pronósticos", layout="wide")
 
     # Carga la imagen desde un archivo
-    imagen = Image.open(Motor_Strmlt_Figura.jpg)
+    imagen = Image.open("Motor_Strmlt_Figura.jpg")
 
     # Contenedor para imagen y título
     col1, _ = st.columns([1, 50])
@@ -286,7 +286,7 @@ def main():
     
     # Opción para descargar la plantilla de Excel siempre visible
     st.markdown("### Descarga la plantilla de Excel para cargar tus datos")
-    with open(In_Formato_Ventas_MesAno.xlsx, "rb") as file:
+    with open("In_Formato_Ventas_MesAno.xlsx", "rb") as file:
         st.download_button(
             label="Descargar Plantilla de Excel",
             data=file,
