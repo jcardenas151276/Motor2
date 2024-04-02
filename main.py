@@ -293,7 +293,10 @@ def main():
             file_name="Plantilla_Excel.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
-
+    st.markdown("""
+                **Nota:** El motor usa **SOLAMENTE data mensual**, el formato es 01/MM/AAAA (Siempre el día es 01).  
+                Todas las columnas deben venir con data para que el modelo no presente errores.
+                """)
     # A continuación, procedemos con la lógica de inicio de sesión
     st.title('Motor de pronósticos')
         
