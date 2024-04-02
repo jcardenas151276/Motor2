@@ -7,7 +7,10 @@ usuarios = {"julian.velasquez@premexcorp.com" : "motor_beta12.",
 "deisycalle30@gmail.com" : "motor_beta12.",
 "mateo0583@hotmail.com" : "motor_beta12.",
 "calfonsoh@gmail.com" : "motor_beta12.",
-"mateogomez@simplesolutions.com.co" : "motor_beta12."}
+"mateogomez@simplesolutions.com.co" : "motor_beta12.",
+"diego.valencia@wasolutions.co" :"motor_beta12.",
+"juan.trujillo@wasolutions.co" :"motor_beta12.",
+"ivan.vasquez@wasolutions.co" :"motor_beta12."}
 
 def validar_usuario(usuario, contrasena):
     """Valida si el usuario y la contraseña son correctos."""
