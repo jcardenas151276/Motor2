@@ -102,8 +102,8 @@ def aplicacion_principal(authenticated):
                     num_registros_unicos_final = data_filled['Register'].nunique()
                     st.write(f"Número de Registros Únicos resultantes: {num_registros_unicos_final}")
                     
-                    if num_registros_unicos_final > 100:
-                        st.error("Máximo 100 registros por corrida. Carga un archivo con menos registros.")
+                    if num_registros_unicos_final > 50:
+                        st.error("Máximo 50 registros por corrida. Carga un archivo con menos registros.")
                         # No es necesario un botón de reinicio aquí, ya que el usuario puede usar "Cargar un archivo nuevo"
                         st.stop()
                                         
